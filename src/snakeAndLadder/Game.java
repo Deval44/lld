@@ -134,7 +134,6 @@ public class Game {
     }
 
     public Map<Player, Integer> getPositions() {
-        requiresStartStatus();
         return positions;
     }
 
